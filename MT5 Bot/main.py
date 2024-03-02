@@ -3,7 +3,7 @@ import time
 import MetaTrader5 as mt5
 
 #login_result = mt5.initialize(login=102942782, server='Exness-MT5Real15',password='Ii23_focus') #real
-login_result = mt5.initialize(login=121458042, server='Exness-MT5Trial7',password='Ii23_focus') #Demo
+login_result = mt5.initialize(login=********, server='Exness-MT5Trial7',password='*********') #Demo
 
 if login_result:
     print("Login to MT5 successful!")
